@@ -230,7 +230,7 @@ tr:nth-child(even) {
 }
 /* Landscape */
 @media only screen and (max-height: 500px) {
-    #heading .title {
+    #heading .text {
       display: none;
     }
   
