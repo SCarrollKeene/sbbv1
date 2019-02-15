@@ -231,7 +231,7 @@ tr:nth-child(even) {
 /* Landscape */
 @media only screen and (max-height: 500px) {
     .wrapper {
-        width: 1080px;
+        width: 500px;
         margin-left: auto;
         margin-right: auto;
         grid-template-columns: auto;
