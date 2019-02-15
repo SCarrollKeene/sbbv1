@@ -14,6 +14,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     display: block;
+    transition: all 1000ms;
 }
 
 #heading {
@@ -227,3 +228,13 @@ tr:nth-child(even) {
             "foot foot";
     }
 }
+/* Landscape */
+@media only screen and (max-height: 500px) {
+    #heading .title {
+      display: none;
+    }
+  
+    #heading {
+      top: 0;
+    }
+  }
