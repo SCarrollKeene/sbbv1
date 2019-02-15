@@ -230,6 +230,21 @@ tr:nth-child(even) {
 }
 /* Landscape */
 @media only screen and (max-height: 500px) {
+    .wrapper {
+        width: 1080px;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-columns: auto;
+        grid-template-areas:
+            "landing landing"
+            "beer food"
+            "foodMenu foodMenu"
+            "beerMenu beerMenu"
+            "hours hours"
+            "about contact"
+            "aboutBio aboutBio"
+            "foot foot";
+    }
     #heading .text {
       display: none;
     }
