@@ -193,7 +193,11 @@ tr:nth-child(even) {
 @media only screen and (min-width: 400px) {
     #landing::after {
         height: 50vh;
-      }
+    }
+      #heading {
+        top: 5%;
+        margin-top: 100px;
+    }
     .wrapper {
         width: 400px;
         margin-left: auto;
@@ -249,7 +253,7 @@ tr:nth-child(even) {
         margin-left: auto;
         margin-right: auto;
         grid-template-columns: auto;
-        grid-template-areas:
+        /*grid-template-areas:
             "landing landing"
             "beer food"
             "foodMenu foodMenu"
@@ -257,7 +261,7 @@ tr:nth-child(even) {
             "hours hours"
             "about contact"
             "aboutBio aboutBio"
-            "foot foot";
+            "foot foot";*/
     }
     #heading .text {
       display: none;
