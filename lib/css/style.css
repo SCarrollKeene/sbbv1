@@ -160,7 +160,7 @@ tr:nth-child(even) {
     background-color: #666699;
     padding: 20px;
 }
-.footDesign {
+.footer {
     grid-area: foot;
     text-align: center;
     color: white;
