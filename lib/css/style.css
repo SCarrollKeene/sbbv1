@@ -175,7 +175,7 @@ tr:nth-child(even) {
 .center {
     text-align: center;
 }
-.wrapper {
+/*.wrapper {
     display: grid;
     grid-template-areas:
         "landing"
@@ -188,7 +188,7 @@ tr:nth-child(even) {
         "aboutBio"
         "contact"
         "foot";
-}
+}*/
 
 @media only screen and (min-width: 400px) {
     #landing::after {
