@@ -4,7 +4,6 @@ body {
     padding: 0;
     margin: 0;
 }
-
 #landing::after {
     content: '';
     height: 100vh;
@@ -16,7 +15,6 @@ body {
     display: block;
     transition: all 1000ms;
 }
-
 #heading {
     position: absolute;
     z-index: 1;
@@ -28,17 +26,14 @@ body {
     height: 350px;
     text-align: center;
 }
-
 #heading .title {
     font-size: 2.2rem;
     margin-top: 1rem;
-  }
-  
+} 
 #heading .text {
     line-height: 1.7;
     margin-top: 1rem;
-  }
-
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -51,7 +46,6 @@ body {
     transition: 0.5s;
     padding-top: 60px;
 }
-
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -60,11 +54,9 @@ body {
     display: block;
     transition: 0.3s;
 }
-
 .sidenav a:hover {
     color: #f1f1f1;
 }
-
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -81,12 +73,10 @@ body {
 .info {
     text-align: center;
 }
-
 p {
     font-size: 80%;
     line-height: 200%;
 }
-
 .btn {
     font-size: 75%;
     border: solid #f1f1f1 2px;
@@ -96,39 +86,31 @@ p {
     text-transform: uppercase;
     text-decoration: none;
 }
-
 .btn:hover {
     color: red;
     border: solid red 2px;
 }
-
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
-
 td {
     text-align: left;
     padding: 8px;
 }
-
 tr:nth-child(even) {
     background-color: #dddddd;
 }
-
-#landing {
-    grid-area: landing;
-
+/*#landing {
     padding: 20px;
-}
+}*/
 #beerInfo {
     color: white; 
     background-color: grey;
     padding: 20px;
 }
 #beerMenu {
-    grid-area: beerMenu;
     background-color: grey;
 }
 #foodInfo {
@@ -151,7 +133,6 @@ tr:nth-child(even) {
     padding: 20px;
 }
 #aboutBio {
-    grid-area: aboutBio;
     color: black;
 }
 #contactInfo {
@@ -160,7 +141,6 @@ tr:nth-child(even) {
     padding: 20px;
 }
 .footer {
-    grid-area: foot;
     text-align: center;
     color: white;
     background-color: #3E474F;
@@ -170,28 +150,12 @@ tr:nth-child(even) {
 .txt-wht {
     color: white;
 }
-
 .center {
     text-align: center;
 }
-
 .italic {
     font-style: italic;
 }
-/*.wrapper {
-    display: grid;
-    grid-template-areas:
-        "landing"
-        "beer"
-        "beerMenu"
-        "food"
-        "foodMenu"
-        "hours"
-        "about"
-        "aboutBio"
-        "contact"
-        "foot";
-}*/
 
 @media only screen and (min-width: 400px) {
     #landing::after {
@@ -206,17 +170,6 @@ tr:nth-child(even) {
         margin-left: auto;
         margin-right: auto;
         grid-template-columns: auto;
-        /*grid-template-areas:
-            "landing"
-            "beer"
-            "beerMenu"
-            "food"
-            "foodMenu"
-            "hours"
-            "about"
-            "aboutBio"
-            "contact"
-            "foot foot";*/
     }
     .grid-1,
     .grid-2 {
@@ -229,26 +182,16 @@ tr:nth-child(even) {
         width: 1080px;
         margin-left: auto;
         margin-right: auto;
-        /*grid-template-columns: 540px auto;
-        grid-template-areas:
-            "landing landing"
-            "beer food"
-            "foodMenu foodMenu"
-            "beerMenu beerMenu"
-            "hours hours"
-            "about contact"
-            "aboutBio aboutBio"
-            "foot foot";*/
     }
     .grid-1 {
         display: grid;
-        /*grid-auto-columns: repeat(3, 1fr);*/
     }
     .grid-2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
       }
 }
+
 /* Landscape */
 @media only screen and (max-height: 400px) {
     .wrapper {
@@ -256,15 +199,6 @@ tr:nth-child(even) {
         margin-left: auto;
         margin-right: auto;
         grid-template-columns: auto;
-        /*grid-template-areas:
-            "landing landing"
-            "beer food"
-            "foodMenu foodMenu"
-            "beerMenu beerMenu"
-            "hours hours"
-            "about contact"
-            "aboutBio aboutBio"
-            "foot foot";*/
     }
     #heading .text {
       display: none;
