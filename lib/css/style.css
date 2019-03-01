@@ -102,9 +102,6 @@ td {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
-/*#landing {
-    padding: 20px;
-}*/
 #beerInfo {
     color: white; 
     background-color: grey;
