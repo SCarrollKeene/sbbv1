@@ -144,6 +144,10 @@ tr:nth-child(even) {
     padding: 20px;
 }
 
+.a {
+    text-decoration: none;
+}
+
 .txt-wht {
     color: white;
 }
